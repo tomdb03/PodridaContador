@@ -85,7 +85,7 @@
   padding: .75rem;
   font-family: 'Nunito', sans-serif;
   font-size: 1rem;
-  background: #a9a9a9;
+  background: #474b4e;
   color: var(--white);
   box-sizing: border-box;
 }
@@ -176,7 +176,7 @@
   color: whitesmoke;
   font-family: 'Erica One', cursive;
   text-transform: uppercase;
-  background: linear-gradient(to bottom, green, black);
+  background: linear-gradient(to bottom, var(--yellow), black);
   border: none;
   line-height: 1;
   letter-spacing: .5px;

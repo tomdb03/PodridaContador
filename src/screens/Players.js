@@ -99,7 +99,7 @@ const Players = () => {
                       {player.name}
                     </h3>
                     {/* <p>{player.points} Puntos</p> */}
-                    <button onClick={deletePlayer} data-player={player.name}>Eliminar Jugador</button>
+                    <button onClick={deletePlayer} data-player={player.name}>Eliminar jugador</button>
                   </li>
                 )
               }
