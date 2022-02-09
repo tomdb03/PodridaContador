@@ -18,7 +18,7 @@ const Players = () => {
     const data = window.localStorage.getItem('players');
     
     if(data !== null) {
-      const retrieveOldPlayers = window.confirm(`Hemos encontrado un juego en curso: ${JSON.parse(data).map(player => `${player.name}: ${player.points} puntos`)}. ¿Quieres seguir jugándolo?`);
+      const retrieveOldPlayers = window.confirm(`Hay un juego en curso: ${JSON.parse(data).map(player => `${player.name}: ${player.points} puntos`)}. ¿Quieres seguir jugándolo?`);
       
       if(retrieveOldPlayers) {
         window.location.href = '/score';
@@ -71,16 +71,19 @@ const Players = () => {
     <React.Fragment>
       <section className={ScreenStyles.Container}>
         <div className={ScreenStyles.TitleContainer}>
-          <span className={ScreenStyles.Icon}>🃏</span>
+          <span className={ScreenStyles.Icon1}>🂡</span>
+          <span className={ScreenStyles.Icon2}>🂱</span>
+          <span className={ScreenStyles.Icon3}>🃑</span>
+          <span className={ScreenStyles.Icon4}>🃁</span>
           <h1 className={ScreenStyles.Title}>
-            Chinch&oacute;n
+            Podrida
           </h1>
-          <span className={ScreenStyles.Subtitle}>Anotador</span>
+          <span className={ScreenStyles.Subtitle}>contador</span>
         </div>
         <div className={ScreenStyles.FormContainer}>
           <p>¿Qui&eacute;nes juegan?</p>
           <form onSubmit={savePlayer}>
-            <input type="text" placeholder="Nombre aquí" onChange={setPlayerName} required />
+            <input type="text" placeholder="Nombre" onChange={setPlayerName} required />
             <input type="submit" value="Agregar Jugador" />
           </form>
         </div>

@@ -18,7 +18,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 main {
-  background-image: linear-gradient(to bottom, #1C053D, #3F116B);
+  background-image: linear-gradient(to bottom, whitesmoke, black);
   min-height: 100vh;
   min-height: -webkit-fill-available;
   display: flex;

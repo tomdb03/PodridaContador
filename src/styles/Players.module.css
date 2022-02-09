@@ -10,15 +10,31 @@
   position: relative;
 }
 
-.Icon {
-  font-size: 3rem;
+.Icon1 {
+  font-size: 5rem;
+  color: black;
+}
+
+.Icon2 {
+  font-size: 5rem;
+  color: red;
+}
+
+.Icon3 {
+  font-size: 5rem;
+  color: black;
+}
+
+.Icon4 {
+  font-size: 5rem;
+  color: red;
 }
 
 .Title {
-  font-size: 3rem;
+  font-size: 3.5rem;
   font-family: 'Erica One', cursive;
   text-transform: uppercase;
-  background: linear-gradient(to bottom, var(--yellow), #FF7800);
+  background: linear-gradient(to bottom, red, black);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -26,13 +42,13 @@
 }
 
 .Subtitle {
-  background-color: var(--pink);
+  background-color: black;
   padding: 0 .25rem;
   font-family: 'Nunito', sans-serif;
   font-weight: 700;
   position: absolute;
   bottom: -.75rem;
-  right: 2rem;
+  right: 2.5rem;
   transform: rotate(-3deg);
   color: var(--white);
 }
@@ -64,12 +80,12 @@
 
 .FormContainer input:not([type="submit"]) {
   box-shadow: none;
-  border: .125rem solid var(--yellow);
+  border: .125rem solid maroon;
   border-radius: 1rem;
   padding: .75rem;
   font-family: 'Nunito', sans-serif;
   font-size: 1rem;
-  background: var(--purple);
+  background: #a9a9a9;
   color: var(--white);
   box-sizing: border-box;
 }
@@ -79,10 +95,10 @@
   padding: 1rem;
   border-radius: 1rem;
   font-size: 1.5rem;
-  color: var(--purple);
+  color: whitesmoke;
   font-family: 'Erica One', cursive;
   text-transform: uppercase;
-  background: linear-gradient(to bottom, var(--yellow), #FF7800);
+  background: linear-gradient(to bottom, red, black);
   border: none;
   line-height: 1;
   letter-spacing: .5px;
@@ -107,7 +123,7 @@
 
 .PlayersContainer ul li {
   border-radius: .5rem;
-  background-color: var(--white);
+  background-color: #7a7a7a;
   padding: .5rem;
   display: flex;
   align-items: baseline;
@@ -115,7 +131,7 @@
 }
 
 .PlayersContainer ul li span {
-  background: linear-gradient(to bottom, var(--yellow), #FF7800);
+  background: linear-gradient(to bottom, red, black);
   padding: .125rem .25rem;
   border-radius: .25rem;
   font-family: 'Nunito', sans-serif;
@@ -126,7 +142,7 @@
 .PlayersContainer ul li h3 {
   font-family: 'Nunito', sans-serif;
   font-size: 1rem;
-  color: var(--purple);
+  color: whitesmoke;
   flex: 1;
 }
 
@@ -138,7 +154,7 @@
 }
 
 .PlayersContainer ul li button, .PlayersContainer ul li h4 {
-  background-color: var(--pink);
+  background-color: black;
   border-radius: .25rem;
   padding: .25rem;
   margin-left: .5rem;
@@ -157,14 +173,14 @@
   padding: 1rem;
   border-radius: 1rem;
   font-size: 1.5rem;
-  color: var(--white);
+  color: whitesmoke;
   font-family: 'Erica One', cursive;
   text-transform: uppercase;
-  background: linear-gradient(to bottom, var(--pink), #B32144);
+  background: linear-gradient(to bottom, green, black);
   border: none;
   line-height: 1;
   letter-spacing: .5px;
-  text-shadow: 2px 2px var(--purple);
+  text-shadow: 2px 2px black;
   width: 100%;
 }
 
