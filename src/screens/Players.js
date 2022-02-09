@@ -83,7 +83,7 @@ const Players = () => {
         <div className={ScreenStyles.FormContainer}>
           <p>¿Qui&eacute;nes juegan?</p>
           <form onSubmit={savePlayer}>
-            <input type="text" placeholder="Nombre" onChange={setPlayerName} required />
+            <input type="text" placeholder="Nombre (primero el que empieza repartiendo)" onChange={setPlayerName} required />
             <input type="submit" value="Agregar Jugador" />
           </form>
         </div>
