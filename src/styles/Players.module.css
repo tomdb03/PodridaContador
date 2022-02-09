@@ -80,7 +80,7 @@
 
 .FormContainer input:not([type="submit"]) {
   box-shadow: none;
-  border: .125rem solid maroon;
+  border: .125rem solid black;
   border-radius: 1rem;
   padding: .75rem;
   font-family: 'Nunito', sans-serif;
