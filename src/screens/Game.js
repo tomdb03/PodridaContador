@@ -158,12 +158,15 @@ const Game = () => {
   return (
     <React.Fragment>
       <section className={ScreenStyles.Container}>
-        <div className={ScreenStyles.TitleContainer}>
-          <span className={ScreenStyles.Icon}>🃏</span>
+      <div className={ScreenStyles.TitleContainer}>
+          <span className={ScreenStyles.Icon1}>🂡</span>
+          <span className={ScreenStyles.Icon2}>🂱</span>
+          <span className={ScreenStyles.Icon3}>🃑</span>
+          <span className={ScreenStyles.Icon4}>🃁</span>
           <h1 className={ScreenStyles.Title}>
-            Chinch&oacute;n
+            Podrida
           </h1>
-          <span className={ScreenStyles.Subtitle}>Anotador</span>
+          <span className={ScreenStyles.Subtitle}>contador</span>
         </div>
         <div className={ScreenStyles.PlayersContainer}>
           <h2>Puntaje:</h2>
