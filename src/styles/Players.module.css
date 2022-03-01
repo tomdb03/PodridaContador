@@ -10,22 +10,12 @@
   position: relative;
 }
 
-.Icon1 {
+.Icon1, .Icon3{
   font-size: 5rem;
   color: black;
 }
 
-.Icon2 {
-  font-size: 5rem;
-  color: red;
-}
-
-.Icon3 {
-  font-size: 5rem;
-  color: black;
-}
-
-.Icon4 {
+.Icon2, .Icon4 {
   font-size: 5rem;
   color: red;
 }
